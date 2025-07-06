@@ -15,10 +15,17 @@ export default {
     theme: {
         extend: {
             colors: {
-                "black": "red"
+                "black": "#060606"
+            },
+            fontFamily: {
+                'hanken-grotesk': ['Hanken Grotesk', 'sans-serif'],
+            },
+            fontSize: {
+                "2xs": "10px" //.625rem
             }
-        }
-    }
+        },
+    },
+    plugins: [],
 }
 
 // this is not working 
